@@ -1,0 +1,132 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.card{
+    width: 100%;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    
+    
+}
+.omlette-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.title-omlette{
+    align-content: start;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+p{
+    padding-bottom: 5px;
+}
+.unordered-list-1{
+background: rgba(255, 0, 233, 0.11);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.3px);
+-webkit-backdrop-filter: blur(2.3px);
+padding-left: 0px;
+margin-left: 0px;
+}
+.title-prparation{
+    padding-bottom: 0px;
+    padding-left: 20px;
+    color: rgb(102, 50, 150);
+}
+.unordered-list{
+    padding-top: 0px;
+    
+}
+.point{
+    padding-bottom: 10px;
+}
+.unordered-list-2{
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#title-ingre{
+    color: rgb(165, 8, 8);
+}
+.point-list{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.ingredient-list{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.oredered-point{
+    padding-bottom: 10px;
+    padding-left: 8px;
+ 
+}
+ol{
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.instruction{
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.instruct-title{
+    color: rgba(182, 28, 28, 0.906);
+}
+.nutrition{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.nutrition-title{
+    color: rgba(182, 28, 28, 0.906);
+}
+
+.nutrition table{
+    border-spacing:0 20px;
+    border-collapse: separate;
+    width: 100%;
+    
+}
+
+.nutrition table td {
+    padding: 10px; 
+    border-bottom: 1px solid rgba(80, 76, 76, 0.241); 
+}
+
+hr {
+    border: 0;
+    height: 2px; /* Increase height */
+    background: linear-gradient(to right, rgba(2, 1, 1, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 20px 0; /* Add some spacing above and below the line */
+}
